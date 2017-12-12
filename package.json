@@ -74,9 +74,7 @@
     "prepare": "npm run clean && npm run build",
     "lint": "eslint src",
     "clean": "rimraf lib dist es",
-    "dev": "npm run build:es -- -w",
-    "test": "cross-env BABEL_ENV=test jest",
-    "test:watch": "cross-env BABEL_ENV=test jest --watch"
+    "dev": "npm run build:es -- -w"
   },
   "npmName": "react-artemis",
   "files": [
